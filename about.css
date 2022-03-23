@@ -21,6 +21,25 @@ body {
     z-index: -1;
 }
 
+.logo {
+    font-size: 2rem;
+}
+
+.nav ul {
+    list-style: none;
+    margin-left: 30vw;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 2rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
 #hero {
     padding-top: 5%;
     display: flex;
@@ -144,4 +163,24 @@ body {
     color: #f1f1f1;
     text-transform: capitalize;
     gap: 10px;
+}
+
+.hiring {
+    padding: 5% 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/hiring.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.col-md-6 h4 {
+    background-color: #0f292f69;
+    padding: 10px 0;
+}
+
+#map {
+    background-image: url("assets/snazzy-image.png");
+    background-position: center;
+    background-size: cover;
+    width: 42vw;
+    height: 50vh;
 }
