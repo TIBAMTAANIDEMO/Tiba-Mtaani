@@ -15,6 +15,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-image: url("assets/about-bg.svg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30vh;
 }
 
 .heading {
@@ -24,11 +29,89 @@ body {
 
 .heading h1 {
     text-transform: capitalize;
-    color: gold;
+    color: #f1f1f1;
 }
 
 .linespan {
     height: 3px;
     width: 60px;
-    background-color: #f1f1f1;
+    background-color: gold;
+}
+
+.search {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#about-s {
+    width: 30vw;
+    height: 25px;
+    border: none;
+    outline: none !important;
+    border-bottom: 2px solid gold;
+    background-color: #ffffff2f;
+    caret-color: gold;
+}
+
+#iconSearch {
+    margin-left: 5vw;
+}
+
+.container-fluid p {
+    width: 70vw;
+    margin-top: 5%;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.container-fluid span {
+    margin-top: 5%;
+    text-transform: uppercase;
+    color: gold;
+    font-size: 28px;
+}
+
+.cardImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 2%;
+    background-position: center;
+    background-size: cover;
+}
+
+#cards {
+    position: absolute;
+    margin-top: 140vh;
+}
+
+.col-lg-3 {
+    background-color: #0f292f77;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+.col-lg-3 h5 {
+    text-transform: uppercase;
+    color: gold;
+}
+
+#card1 {
+    background-image: url("assets/card1.png")
+}
+
+#card2 {
+    background-image: url("assets/card2.png");
+}
+
+#card3 {
+    background-image: url("assets/card3.png");
+}
+
+.col-lg-3 p {
+    width: 20vw;
 }
