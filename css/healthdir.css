@@ -1,0 +1,23 @@
+.tibapediaText{
+    font-size:large;
+}
+#icons{
+    text-align: center;
+    position: relative;
+    top:6rem;
+
+}
+.iconTop{
+    height:12vh;
+    background-color: white;
+}
+
+.intro{
+    text-align: center;
+    position:relative;
+    top:9rem;
+    font-size:1.5rem;
+}
+::placeholder{
+    text-align: center;
+}
