@@ -5,3 +5,22 @@
 #email1{
     color: black;
 }
+.header{
+    background-image:linear-gradient(to top, rgba(5,5,5,0.5),rgba(0,226,226,0.9)) ;
+    padding: 20pt;
+}
+.header1{
+    background-image:linear-gradient(to top, rgba(5,5,5,0.5),rgba(0,226,226,0.9)) ;
+    padding: 20pt;
+}
+.form-label{
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    padding: 10pt;
+}
+input{
+    /* height: 20pt;
+    width: 20pt; */
+
+}
