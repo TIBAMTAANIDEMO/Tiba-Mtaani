@@ -10,16 +10,23 @@ body {
     background-color: #0D4A4A;
 }
 
-.container-fluid {
+.bkg {
+    background-image: url("assets/about-bg.svg");
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+#hero {
     padding-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("assets/about-bg.svg");
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 30vh;
 }
 
 .heading {
@@ -58,14 +65,14 @@ body {
     margin-left: 5vw;
 }
 
-.container-fluid p {
+#hero p {
     width: 70vw;
     margin-top: 5%;
     text-align: center;
     color: #f1f1f1;
 }
 
-.container-fluid span {
+#hero span {
     margin-top: 5%;
     text-transform: uppercase;
     color: gold;
@@ -82,8 +89,7 @@ body {
 }
 
 #cards {
-    position: absolute;
-    margin-top: 140vh;
+    margin-top: 5%;
 }
 
 .col-lg-3 {
@@ -93,6 +99,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 3% 0;
+    gap: 10px;
+    text-align: center;
 }
 
 .col-lg-3 h5 {
@@ -114,4 +122,26 @@ body {
 
 .col-lg-3 p {
     width: 20vw;
+    color: #f1f1f1;
+}
+
+#statistics {
+    margin-top: 10vh;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+    color: #f1f1f1;
+    text-transform: capitalize;
+    gap: 10px;
 }
