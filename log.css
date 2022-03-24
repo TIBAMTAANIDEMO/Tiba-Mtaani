@@ -28,3 +28,14 @@ button a {
 #ex:hover {
     border: 1px solid black
 }
+
+input {
+    outline: none !important;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #093535;
+}
+
+#file {
+    width: 19vw;
+}
