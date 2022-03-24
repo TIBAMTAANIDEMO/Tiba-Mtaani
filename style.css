@@ -1,37 +1,27 @@
-.mama {
-    background-image: url(./images/health7.jpg);
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/health7.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    padding-top: 2%;
-    padding-bottom: 5%;
-}
-
 a {
     text-decoration: none;
 }
 
-
-/* 
 .nav {
-    position: fixed;
-} */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #0D4A4A;
+    padding-right: 5%;
+}
 
-.logo {
-    font-size: 2rem;
+.logo p {
+    font-size: 32px;
 }
 
 .nav ul {
-    list-style: none;
-    margin-left: 30vw;
+    list-style: none
 }
 
 .nav ul li {
     display: inline;
-    margin: 0 2rem;
+    margin: 0 2vw;
 }
 
 .nav ul li a {
@@ -39,23 +29,86 @@ a {
     color: #f1f1f1;
 }
 
-.tafuta {
+.search {
     margin-top: 5%;
-    justify-content: center;
-    text-align: center;
-    border: 2px;
 }
 
-.mofimu {
-    justify-content: center;
-    text-align: center;
-    padding: 5px;
-    border: 2px;
+#about-s {
+    width: 30vw;
+    height: 25px;
+    border: none;
+    outline: none !important;
+    border-bottom: 2px solid gold;
+    background-color: #ffffff2f;
+    caret-color: gold;
+    padding: 0 3vw;
 }
 
-.desc {
+#about-s::placeholder {
+    color: #f1f1f1;
+}
+
+#iconSearch {
+    margin-left: 5vw;
+}
+
+#about {
+    padding: 2% 4%;
+    background-color: #093535;
+}
+
+#hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/doctor5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.hero-txt {
+    margin-left: 10%;
+}
+
+.form-container {
+    margin-top: 15vh;
+    margin-left: 10%;
+}
+
+select {
+    outline: none !important;
+    border: none;
+    width: 25vw;
+    height: 3rem;
+    color: rgb(89, 88, 88);
+    padding: 0 3%;
+    margin: 0 2vw;
+}
+
+#btns {
+    height: 3rem;
+    width: 3rem;
+    border: none;
+}
+
+svg {
+    fill: red;
+    transform: scale(0.7);
+}
+
+.col-md-4 {
+    height: 30vh;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    width: 15vw;
+    background-color: #f1f1f1;
+    margin: 0 1vw;
+    flex-direction: column;
+}
+
+.col-md-4:hover {
+    background-color: #0d4a4a60;
 }
 
 .chatbox {
@@ -85,10 +138,4 @@ footer ul {
     margin-left: 85vw;
     display: none;
     margin-top: 70vh;
-}
-
-select {
-    outline: none !important;
-    height: 1.5rem;
-    width: 20vw;
 }
